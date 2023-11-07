@@ -1,0 +1,12 @@
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+   "name" : "Admin",
+   "password" : "pedang2032"
+}
+
+###
+GET http://localhost:5000/api/auth/me
+###
+DELETE  http://localhost:5000/api/auth/logout
